@@ -57,6 +57,12 @@ function ContactForm() {
           )}
           <button data-testid="button" type="submit">Submit</button>
         </form>
+        <div>
+          <h3>Personal Contact Info:</h3>
+            <h5>Tongchee Y. Yang</h5>
+            <h6>email:  Tcknyaj@gmail.com</h6>
+            <h6>Phone: (317)523-5142</h6>
+        </div>
       </section>
     );
   }

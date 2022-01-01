@@ -108,3 +108,12 @@ function Portfolio() {
     )
 }
 export default Portfolio;
+
+//{currentProjects.map((image, i)=> (
+//<img
+//src={require(`../../assets/Challenge${i}.png`)}
+//alt={image.name}
+//className="img-thumbnail mx-6"
+//onClick={() => toggleModal(image, i)}
+//key={image.name}
+//))}
