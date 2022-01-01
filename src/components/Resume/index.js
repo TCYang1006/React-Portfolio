@@ -3,8 +3,8 @@ import myResume from '../../assets/TCYang.pdf';
 
 function Resume() {
     return (
-        <section>
-            <h1 className="row">Tongchee Y. Yang's Resume</h1>
+        <section className="container">
+            <h1 className="row mobile">Tongchee Y. Yang's Resume</h1>
             <div className="row">
                 <a href={myResume} download>
                     <h4>Download Resume</h4>
@@ -32,7 +32,7 @@ function Resume() {
             <div>
                 <h2>Work History</h2>
                 <h5>NTN Driveshaft Anderson, Indiana 2018~Present</h5>
-                <h6>I'm currently a Process/Induction Hardening Engineer with NTN Driveshft at the Anderson, Indiana Plant.  I lead a team of 5 to install and start up the turning and heat-treat department.  The installation required working with outside contractors (machine riggers, electricians and pipefitters) to install 2 induction hardening machines, 2 tempering ovens, 8 overhead transfering systems, 7 lathes, 2 mills, 2 rolling centers, 2 Fanuc robot-arms and 5 multi-inpsection units.  Currently, all of the machines are up and running.  I'm continuously improving on the induction hardening process by creating training operators with SOP (Standard Operating Procedures), implementing preventative maintenance checks, ordering spare parts, improving overall efficiency to meet 500 pcs per shift (improving material handling speed and accuracy and reducing quenching cycle time but still maintaining microstructure quality) and maintaining traceability all every part through the induction hardening process.</h6>
+                <p>I'm currently a Process/Induction Hardening Engineer with NTN Driveshft at the Anderson, Indiana Plant.  I lead a team of 5 to install and start up the turning and heat-treat department.  The installation required working with outside contractors (machine riggers, electricians and pipefitters) to install 2 induction hardening machines, 2 tempering ovens, 8 overhead transfering systems, 7 lathes, 2 mills, 2 rolling centers, 2 Fanuc robot-arms and 5 multi-inpsection units.  Currently, all of the machines are up and running.  I'm continuously improving on the induction hardening process by creating training operators with SOP (Standard Operating Procedures), implementing preventative maintenance checks, ordering spare parts, improving overall efficiency to meet 500 pcs per shift (improving material handling speed and accuracy and reducing quenching cycle time but still maintaining microstructure quality) and maintaining traceability all every part through the induction hardening process.</p>
             </div>
             <br></br>
             <div>
