@@ -18,8 +18,8 @@ function Resume() {
                 <div className="col-md-8 col-sm-8">
                 <p>HTML and CSS</p>
                 <p>JavaScript</p> 
-                <p>Node</p> 
-                <p>Express</p> 
+                <p>Node.js</p> 
+                <p>Express.js</p> 
                 </div>
                 <div className="col-md-8 col-sm-8">
                 <p>SQL</p> 
