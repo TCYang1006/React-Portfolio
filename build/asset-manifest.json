@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.f31625ab.css",
+    "main.js": "/React-Portfolio/static/js/main.d5b32c1d.js",
+    "static/js/787.cf250828.chunk.js": "/React-Portfolio/static/js/787.cf250828.chunk.js",
+    "static/media/Challenge2.png": "/React-Portfolio/static/media/Challenge2.8d0b792e28c9543ae63b.png",
+    "static/media/mainImage.png": "/React-Portfolio/static/media/mainImage.eeb15ba63fbbb392f51e.png",
+    "static/media/Challenge3.png": "/React-Portfolio/static/media/Challenge3.2a57be41ed189e7d7946.png",
+    "static/media/Challenge1.png": "/React-Portfolio/static/media/Challenge1.0521a0c6a74215490d1e.png",
+    "static/media/github.png": "/React-Portfolio/static/media/github.cdd2d4a07f4de71f21d1.png",
+    "static/media/TCYang.pdf": "/React-Portfolio/static/media/TCYang.09a9328e7d824538b078.pdf",
+    "static/media/Challenge4.png": "/React-Portfolio/static/media/Challenge4.4be03575a5dab293ea00.png",
+    "static/media/LinkedIn.png": "/React-Portfolio/static/media/LinkedIn.2ca31458a852a7257b0e.png",
+    "index.html": "/React-Portfolio/index.html",
+    "main.f31625ab.css.map": "/React-Portfolio/static/css/main.f31625ab.css.map",
+    "main.d5b32c1d.js.map": "/React-Portfolio/static/js/main.d5b32c1d.js.map",
+    "787.cf250828.chunk.js.map": "/React-Portfolio/static/js/787.cf250828.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f31625ab.css",
+    "static/js/main.d5b32c1d.js"
+  ]
+}
