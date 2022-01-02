@@ -264,9 +264,10 @@ textarea {
 }
 
 .modalTitle {
-	font-size: 18px;
+	font-size: 24px;
 	font-weight: 600;
 	margin-bottom: 25px;
+  text-align: center;
 }
 
 button {
@@ -301,6 +302,15 @@ a {
   cursor: pointer;
 }
 .logo:hover {
+  opacity: 0.5;
+}
+.logo2 {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 50px;
+  cursor: pointer;
+}
+.logo2:hover {
   opacity: 0.5;
 }
 .footer {

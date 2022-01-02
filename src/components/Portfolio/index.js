@@ -13,56 +13,40 @@ function Portfolio() {
     const [projects] = useState([
         {
             name: 'Work Day Scheduler',
-            description: 'Third Party API - Work scheduler',
-            applications: [
-                'HTML/CSS',
-                'JavaScript',
-                'Node.js',
-            ],
-            github: 'https://github.com/TCYang1006',
-            deployed: 'https://github.com/TCYang1006'
+            project_number: 1,
+            description: "This is a one day scheduling log. The current day and date will appear at the top of the scheduling log. As time passes each hour, the time slot will change color (red for past, grey for current and green for future). For each hour of the day, a task/event can be added to the middle column. Clicking on the disk icon will save the task/event. Each hour has it's own disk icon for saving. The task/event will be stored in local storage when saved. Reloading or refreshing the website will update the column with the recently saved local storage information.",
+            github: 'https://github.com/TCYang1006/workday-scheduler',
+            deployed: 'https://TCYang1006.github.io/workday-scheduler'
 
         },
         {
-            name: 'Weekend Fun',
-            description: 'Front-End Project',
-            applications: [
-                'HTML/CSS',
-                'JavaScript',
-                'Node.js',
-            ],
-            github: 'https://github.com/TCYang1006',
-            deployed: 'https://github.com/TCYang1006'
+            name: "This Week's Distractions",
+            project_number: 2,
+            description: "This Week's Distractions is a one-stop event planner for those who like to get out, travel and have some fun. Users can search by city and a list of events will display, along with the current weather forecast and a map of the location.",
+            github: 'https://github.com/TCYang1006/Project-1',
+            deployed: 'https://tcyang1006.github.io/Project-1'
 
         },
         {
-            name: 'Employee Tracker',
-            description: 'tracking employee in company',
-            applications: [
-                'HTML/CSS',
-                'JavaScript',
-                'Node.js',
-            ],
-            github: 'https://github.com/TCYang1006',
-            deployed: 'https://github.com/TCYang1006'
+            name: 'Weather-Dashboard',
+            project_number: 3,
+            description: "The Weather-Dashboard allow a user to enter a city name and report thecurrent weather condition(Temperature, Humidity, Windspeed and UV index) and a 5-Day forecast. The 5-Day forecast will include a weather icon, temperature, humidity and windspeed.",
+            github: 'https://github.com/TCYang1006/WeatherDashboard',
+            deployed: 'https://tcyang1006.github.io/WeatherDashboard'
 
         },
         {
             name: 'Full Stack Project',
-            description: 'Complete full stack project',
-            applications: [
-                'HTML/CSS',
-                'JavaScript',
-                'Node.js',
-            ],
-            github: 'https://github.com/TCYang1006',
-            deployed: 'https://github.com/TCYang1006'
+            project_number: 4,
+            description: 'Business owner want to be able to securely view and manage the departments, roles and employees in my company to organize the employees file.  This is a full stack application allowing the business owner to create, read, update and delete employees, roles and department.  Each employee will have a job title, role, work department and salary.',
+            github: 'https://github.com/Patsax/our-people-tracker',
+            deployed: 'https://our-people-tracker.herokuapp.com'
 
         }
     ]);
     
-    const toggleModal = (image, i) => {
-        setCurrentProject({...image, index: i});
+    const toggleModal = (index) => {
+        setCurrentProject(projects[index]);
         setIsModalOpen(!isModalOpen);
     };
 
@@ -80,12 +64,14 @@ function Portfolio() {
                     src={challenge1}
                     alt="Work Day Scheduler"
                     className="img-thumbnail mx-6"
+                    onClick={(e) => toggleModal(0)}
 
                 />
                     <img
                     src={challenge2}
                     alt="This Week's Distraction"
                     className="img-thumbnail mx-6"
+                    onClick={(e) => toggleModal(1)}
 
                 />
                 </ul>
@@ -94,12 +80,14 @@ function Portfolio() {
                     src={challenge3}
                     alt="Employee Tracker"
                     className="img-thumbnail mx-6"
+                    onClick={(e) => toggleModal(2)}
 
                 />
                 <img
                     src={challenge4}
                     alt="Our People Tracker"
                     className="img-thumbnail mx-6"
+                    onClick={(e) => toggleModal(3)}
 
                 />
                 </ul>
