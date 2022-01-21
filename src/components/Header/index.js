@@ -8,8 +8,6 @@ function Header(props) {
         <header>
             <div>
                 <h2>Tongchee Y. Yang</h2>
-            </div>
-            <div>
                 <Nav currentTitle={currentTitle} setCurrentTitle={setCurrentTitle}></Nav>
             </div>
         </header>

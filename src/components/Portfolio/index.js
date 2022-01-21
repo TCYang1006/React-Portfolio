@@ -30,17 +30,17 @@ function Portfolio() {
         {
             name: 'Weather-Dashboard',
             project_number: 3,
-            description: "The Weather-Dashboard allow a user to enter a city name and report thecurrent weather condition(Temperature, Humidity, Windspeed and UV index) and a 5-Day forecast. The 5-Day forecast will include a weather icon, temperature, humidity and windspeed.",
+            description: "The Weather-Dashboard allow a user to enter a city name and report the current weather condition(Temperature, Humidity, Wind-speed and UV index) and a 5-Day forecast. The 5-Day forecast will include a weather icon, temperature, humidity and wind-speed.",
             github: 'https://github.com/TCYang1006/WeatherDashboard',
             deployed: 'https://tcyang1006.github.io/WeatherDashboard'
 
         },
         {
-            name: 'Full Stack Project',
+            name: 'Vaccine Tracker',
             project_number: 4,
-            description: 'Business owner want to be able to securely view and manage the departments, roles and employees in my company to organize the employees file.  This is a full stack application allowing the business owner to create, read, update and delete employees, roles and department.  Each employee will have a job title, role, work department and salary.',
-            github: 'https://github.com/Patsax/our-people-tracker',
-            deployed: 'https://our-people-tracker.herokuapp.com'
+            description: 'As more places and events require proof of vaccination.  This application allow users to keep track of their COVID vaccine record.  The user will be able to sign-up, login and update their personal information and vaccine record. ',
+            github: 'https://github.com/aschmidtke/vaccine-tracker-project',
+            deployed: 'https://cryptic-shelf-43216.herokuapp.com/'
 
         }
     ]);
@@ -85,7 +85,7 @@ function Portfolio() {
                 />
                 <img
                     src={challenge4}
-                    alt="Our People Tracker"
+                    alt="Vaccine Tracker"
                     className="img-thumbnail mx-6"
                     onClick={(e) => toggleModal(3)}
 
