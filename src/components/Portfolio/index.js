@@ -78,7 +78,7 @@ function Portfolio() {
                 <ul className="col-md-6 col-sm-6">
                 <img
                     src={challenge3}
-                    alt="Employee Tracker"
+                    alt="Weather Dashboard"
                     className="img-thumbnail mx-6"
                     onClick={(e) => toggleModal(2)}
 
