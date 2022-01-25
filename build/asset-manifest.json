@@ -1,23 +1,26 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.f31625ab.css",
-    "main.js": "/React-Portfolio/static/js/main.d5b32c1d.js",
+    "main.css": "/React-Portfolio/static/css/main.39863522.css",
+    "main.js": "/React-Portfolio/static/js/main.192689a9.js",
     "static/js/787.cf250828.chunk.js": "/React-Portfolio/static/js/787.cf250828.chunk.js",
     "static/media/Challenge2.png": "/React-Portfolio/static/media/Challenge2.8d0b792e28c9543ae63b.png",
     "static/media/mainImage.png": "/React-Portfolio/static/media/mainImage.eeb15ba63fbbb392f51e.png",
-    "static/media/Challenge3.png": "/React-Portfolio/static/media/Challenge3.2a57be41ed189e7d7946.png",
+    "static/media/Challenge3.png": "/React-Portfolio/static/media/Challenge3.f48536b312b46095c78d.png",
+    "static/media/Challenge3a.png": "/React-Portfolio/static/media/Challenge3a.2a57be41ed189e7d7946.png",
     "static/media/Challenge1.png": "/React-Portfolio/static/media/Challenge1.0521a0c6a74215490d1e.png",
     "static/media/github.png": "/React-Portfolio/static/media/github.cdd2d4a07f4de71f21d1.png",
+    "static/media/Challenge4.png": "/React-Portfolio/static/media/Challenge4.0886cd96a0c3dba0e1d8.png",
     "static/media/TCYang.pdf": "/React-Portfolio/static/media/TCYang.09a9328e7d824538b078.pdf",
-    "static/media/Challenge4.png": "/React-Portfolio/static/media/Challenge4.4be03575a5dab293ea00.png",
+    "static/media/Challenge5.png": "/React-Portfolio/static/media/Challenge5.4be03575a5dab293ea00.png",
+    "static/media/Octocat-GITHUB.jpg": "/React-Portfolio/static/media/Octocat-GITHUB.2444c54fd88ae684e5a7.jpg",
     "static/media/LinkedIn.png": "/React-Portfolio/static/media/LinkedIn.2ca31458a852a7257b0e.png",
     "index.html": "/React-Portfolio/index.html",
-    "main.f31625ab.css.map": "/React-Portfolio/static/css/main.f31625ab.css.map",
-    "main.d5b32c1d.js.map": "/React-Portfolio/static/js/main.d5b32c1d.js.map",
+    "main.39863522.css.map": "/React-Portfolio/static/css/main.39863522.css.map",
+    "main.192689a9.js.map": "/React-Portfolio/static/js/main.192689a9.js.map",
     "787.cf250828.chunk.js.map": "/React-Portfolio/static/js/787.cf250828.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f31625ab.css",
-    "static/js/main.d5b32c1d.js"
+    "static/css/main.39863522.css",
+    "static/js/main.192689a9.js"
   ]
 }
