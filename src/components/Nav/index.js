@@ -5,7 +5,7 @@ function Nav(props) {
 
     return(
         <nav>
-            <ul className="flex-row mobile-view">
+            <ul className="flex-row justify-content-end mobile-view">
                 <li className={currentTitle === "about" ? "mx-2 navActive": "mx-2"}>
                     <span onClick={() => setCurrentTitle("about")}>About Me</span>
                 </li>

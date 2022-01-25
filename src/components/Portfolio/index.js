@@ -59,7 +59,7 @@ function Portfolio() {
             </div>
             <h1 className="row">Tongchee Y. Yang's Portfolio</h1>
             <div className="row">
-                <ul className="col-md-6 col-sm-6">
+                <ul className="col-md-6">
                 <img
                     src={challenge1}
                     alt="Work Day Scheduler"
@@ -67,6 +67,7 @@ function Portfolio() {
                     onClick={(e) => toggleModal(0)}
 
                 />
+                <br/>
                     <img
                     src={challenge2}
                     alt="This Week's Distraction"
@@ -75,7 +76,7 @@ function Portfolio() {
 
                 />
                 </ul>
-                <ul className="col-md-6 col-sm-6">
+                <ul className="col-md-6">
                 <img
                     src={challenge3}
                     alt="Weather Dashboard"
@@ -83,6 +84,7 @@ function Portfolio() {
                     onClick={(e) => toggleModal(2)}
 
                 />
+                <br/>
                 <img
                     src={challenge4}
                     alt="Vaccine Tracker"

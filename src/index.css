@@ -166,6 +166,15 @@ textarea {
 	padding: 5px;
 }
 
+.title{
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  margin: 5px 0;
+  line-height: 1.25;
+  font-size: 2rem;
+  text-align: center;
+}
 .container {
   width: 85%;
   max-width: 1200px;
@@ -174,8 +183,10 @@ textarea {
 }
 
 .flex-row {
+  justify-content: end;
   display: flex;
   flex-wrap: wrap;
+  
 }
 
 .space-between {
@@ -300,6 +311,7 @@ a {
   height: 50px;
   margin-bottom: 50px;
   cursor: pointer;
+
 }
 .logo:hover {
   opacity: 0.5;

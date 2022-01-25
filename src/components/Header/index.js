@@ -6,8 +6,8 @@ function Header(props) {
 
     return (
         <header>
-            <div>
-                <h2>Tongchee Y. Yang</h2>
+            <div >
+                <h2 className="title">Tongchee Y. Yang</h2>
                 <Nav currentTitle={currentTitle} setCurrentTitle={setCurrentTitle}></Nav>
             </div>
         </header>

@@ -36,32 +36,12 @@ function ContactForm() {
   
     return (
       <section>
-        <h1 data-testid="h1tag">Contact me</h1>
-        <form id="contact-form" onSubmit={handleSubmit}>
-          <div>
-            <label htmlFor="name">Name:</label>
-            <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
-          </div>
-          <div>
-            <label htmlFor="email">Email address:</label>
-            <input type="email" name="email" defaultValue={email} onBlur={handleChange} />
-          </div>
-          <div>
-            <label htmlFor="message">Message:</label>
-            <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange} />
-          </div>
-          {errorMessage && (
-            <div>
-              <p className="error-text">{errorMessage}</p>
-            </div>
-          )}
-          <button data-testid="button" type="submit">Submit</button>
-        </form>
+
         <div>
-          <h3>Personal Contact Info:</h3>
-            <h5>Tongchee Y. Yang</h5>
-            <h6>email:  Tcknyaj@gmail.com</h6>
-            <h6>Phone: (317)523-5142</h6>
+          <h3 className='row'>Personal Contact Info:</h3>
+            <h5 className='row'>Tongchee Y. Yang</h5>
+            <h6 className='row'>email:  Tcknyaj@gmail.com</h6>
+            <h6 className='row'>Phone: (317)523-5142</h6>
         </div>
       </section>
     );

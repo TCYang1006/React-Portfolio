@@ -4,7 +4,6 @@ import mainImage from '../../assets/mainImage.png';
 function About() {
     return(
         <section className="my-5">
-            <h1>About me</h1>
             <img src={mainImage} className="my-2" style={{width: "100%"}} alt="fiber-optic image" />
             <div className="center">
                 <p>
