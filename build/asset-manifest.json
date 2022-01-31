@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.422476fc.css",
-    "main.js": "/React-Portfolio/static/js/main.604dc701.js",
+    "main.css": "/React-Portfolio/static/css/main.b97d08f5.css",
+    "main.js": "/React-Portfolio/static/js/main.6e5e085b.js",
     "static/js/787.cf250828.chunk.js": "/React-Portfolio/static/js/787.cf250828.chunk.js",
     "static/media/Challenge2.png": "/React-Portfolio/static/media/Challenge2.8d0b792e28c9543ae63b.png",
     "static/media/mainImage.png": "/React-Portfolio/static/media/mainImage.eeb15ba63fbbb392f51e.png",
@@ -9,18 +9,25 @@
     "static/media/Challenge3a.png": "/React-Portfolio/static/media/Challenge3a.2a57be41ed189e7d7946.png",
     "static/media/Challenge1.png": "/React-Portfolio/static/media/Challenge1.0521a0c6a74215490d1e.png",
     "static/media/github.png": "/React-Portfolio/static/media/github.cdd2d4a07f4de71f21d1.png",
+    "static/media/mernLogo.png": "/React-Portfolio/static/media/mernLogo.fd7a09201cdf2d86c0b3.png",
+    "static/media/javascriptLogo.png": "/React-Portfolio/static/media/javascriptLogo.3b52d998c6a952516993.png",
+    "static/media/mongodbLogo.png": "/React-Portfolio/static/media/mongodbLogo.1df44ece8cf851cecf69.png",
     "static/media/Challenge4.png": "/React-Portfolio/static/media/Challenge4.0886cd96a0c3dba0e1d8.png",
     "static/media/TCYang.pdf": "/React-Portfolio/static/media/TCYang.09a9328e7d824538b078.pdf",
     "static/media/Challenge5.png": "/React-Portfolio/static/media/Challenge5.4be03575a5dab293ea00.png",
     "static/media/Octocat-GITHUB.jpg": "/React-Portfolio/static/media/Octocat-GITHUB.2444c54fd88ae684e5a7.jpg",
-    "static/media/LinkedIn.png": "/React-Portfolio/static/media/LinkedIn.2ca31458a852a7257b0e.png",
+    "static/media/cssLogo.png": "/React-Portfolio/static/media/cssLogo.9407ad358cdb22b8b1f0.png",
+    "static/media/reactLogo.png": "/React-Portfolio/static/media/reactLogo.244712221ee271ae7478.png",
+    "static/media/nodeLogo.png": "/React-Portfolio/static/media/nodeLogo.72cb3403e4a8890f0ae8.png",
+    "static/media/expressLogo.png": "/React-Portfolio/static/media/expressLogo.39a0f4c3d981885c64f8.png",
+    "static/media/sqlLogo.png": "/React-Portfolio/static/media/sqlLogo.716ccee06a2406fb4ec4.png",
     "index.html": "/React-Portfolio/index.html",
-    "main.422476fc.css.map": "/React-Portfolio/static/css/main.422476fc.css.map",
-    "main.604dc701.js.map": "/React-Portfolio/static/js/main.604dc701.js.map",
+    "main.b97d08f5.css.map": "/React-Portfolio/static/css/main.b97d08f5.css.map",
+    "main.6e5e085b.js.map": "/React-Portfolio/static/js/main.6e5e085b.js.map",
     "787.cf250828.chunk.js.map": "/React-Portfolio/static/js/787.cf250828.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.422476fc.css",
-    "static/js/main.604dc701.js"
+    "static/css/main.b97d08f5.css",
+    "static/js/main.6e5e085b.js"
   ]
 }
