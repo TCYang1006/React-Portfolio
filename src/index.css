@@ -325,6 +325,11 @@ a {
 .logo2:hover {
   opacity: 0.5;
 }
+
+.skillLogo {
+  width: 20px;
+  height: 20px;
+}
 .footer {
   display: flex;
   flex-wrap: wrap;

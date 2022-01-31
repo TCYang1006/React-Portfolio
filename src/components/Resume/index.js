@@ -1,5 +1,15 @@
 import React from 'react';
+
 import myResume from '../../assets/TCYang.pdf';
+import html5Logo from '../../assets/html5Logo.png';
+import cssLogo from '../../assets/cssLogo.png';
+import javascriptLogo from '../../assets/javascriptLogo.png';
+import nodeLogo from '../../assets/nodeLogo.png';
+import expressLogo from '../../assets/expressLogo.png';
+import sqlLogo from '../../assets/sqlLogo.png';
+import mongodbLogo from '../../assets/mongodbLogo.png';
+import reactLogo from '../../assets/reactLogo.png';
+import mernLogo from '../../assets/mernLogo.png';
 
 function Resume() {
     return (
@@ -12,21 +22,35 @@ function Resume() {
             </div>
             <div>
                 <div className="row">
-                <h2>Skills</h2>
+                    <h2> Relevant Skills</h2>
                 </div>
                 <div className="row">
-                <div className="col-md-8 col-sm-8">
-                <p>HTML and CSS</p>
-                <p>JavaScript</p> 
-                <p>Node.js</p> 
-                <p>Express.js</p> 
-                </div>
-                <div className="col-md-8 col-sm-8">
-                <p>SQL</p> 
-                <p>MongoDB</p> 
-                <p>React</p>
-                <p>MERN</p>
-                </div>
+                    <div className="col-md-8 col-sm-8">
+                        <p>
+                            <img src={html5Logo} alt="HTML5 Logo" className="skillLogo"></img> HTML and <img src={cssLogo} alt="CSS Logo" className="skillLogo"></img> CSS
+                        </p>
+                        <p>
+                            <img src={javascriptLogo} alt="JavaScript Logo" className="skillLogo"></img> JavaScript
+                        </p>
+                        <p>
+                            <img src={nodeLogo} alt="Node.js Logo" className="skillLogo"></img> Node.js
+                        </p>
+                        <p>
+                            <img src={expressLogo} alt="Express Logo" className="skillLogo"></img> Express.js</p>
+                    </div>
+                    <div className="col-md-8 col-sm-8">
+                        <p>
+                            <img src={sqlLogo} alt="SQL Logo" className="skillLogo"></img> SQL
+                        </p>
+                        <p>
+                            <img src={mongodbLogo} alt="MongoDB Logo" className="skillLogo"></img> MongoDB
+                        </p>
+                        <p>
+                            <img src={reactLogo} alt="React Logo" className="skillLogo"></img> React
+                        </p>
+                        <p>
+                        <img src={mernLogo} alt="MERN Logo" className="skillLogo"></img> MERN</p>
+                    </div>
                 </div>
             </div>
             <div>

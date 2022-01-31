@@ -1,7 +1,6 @@
 import React from "react";
 import githubLogo from '../../assets/github.png';
-import linkedinLogo from '../../assets/LinkedIn.png';
-import redditLogo from '../../assets/Reddit.png';
+import linkedinLogo from '../../assets/inLogo.png';
 
 function Footer() {
     return (
@@ -12,13 +11,8 @@ function Footer() {
                 </a>
             </div>
             <div>
-                <a href="http://www.linkin.com/in/tongcheeyang" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/tongchee-yang-1971a0227" target="_blank" rel="noopener noreferrer">
                     <img src={linkedinLogo} alt="Linkedin Logo" className="logo"></img>
-                </a>
-            </div>
-            <div>
-                <a href="http://www.reddit.com" target="_blank" rel="noopener noreferrer">
-                    <img src={redditLogo} alt="Reddit Logo" className="logo"></img>
                 </a>
             </div>
         </footer>
